@@ -1,6 +1,7 @@
 Revision history for Mail-Milter-Authentication
 
 {{$NEXT}}
+  - DMARC: Validate mailto in rua before saving reports
   - Core: Move Dequeue log messages to debug level
       Thanks to @premeau
   - DMARC: Return permerror for domains with multiple DMARC records
